@@ -37,3 +37,6 @@ gulp --env dev --tenant example
 ```
 npm install
 ```
+
+## 交流
+有问题欢迎咨询 QQ群: 606173512
