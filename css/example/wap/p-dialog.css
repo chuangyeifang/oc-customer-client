@@ -1,0 +1,76 @@
+#p_dialog_mask_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 999;
+    transition: .3s;
+}
+
+#p_dialog_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+#p_dialog_header {
+    position: relative;
+    height: 40px;
+    background-color: #333;
+    line-height: 40px;
+    font-size: 13px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+#p_dialog_content {
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    min-height: 40px;
+    max-height: 220px;
+    max-width: 220px;
+    width: 200px;
+    padding: 15px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+#p_dialog_close {
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 0;
+    width: 25px;
+    height: 40px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABIUlEQVQ4T6WTISxFYRiGnzeLNptpoqBpAtME3ODSbruNdhvDSKbYFFNM4gpIGknTbJpI0/TXvrv/3h3Hf9yzOfGc8zz7vvf/X/HPR7bHgQ9gT9JuHZ/t+G8HGFMAtrvAah1JAb6W1OwJ6krKcHADwTBJDv4lqJJUwVlBSRJhxZQRWG/ncsg/Vih+LAQbr7Nw5QRpijXgMknXJV3ljjg7ge0WcA7cJKgBtCRdDF3Bdhs4Be6BpQTcAYtAW9JZUVI+xk3gGHgAliV9pXVGgJAsABuSTvqS4kXqAIfAU4I/S6GOArfALNCRdDQI0fYWsA88AyuS3nOB2Z5IucwA25IOokxzwCPwAjQkvf1VKNuTSTINzPfLFBemK+m1ZhungGa09xvMP4Jgtxo7FwAAAABJRU5ErkJggg==') center no-repeat;
+    background-size: 16px 16px;
+    z-index: 2001;
+}
+
+#p_dialog_opts {
+    text-align: center;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+#p_dialog_opts>span {
+    display: inline-block;
+    height: 30px;
+    cursor: pointer;
+}
+
+#p_dialog_opts #p_dialog_submit {
+    background-color: #e2231a;
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: #ffffff;
+}

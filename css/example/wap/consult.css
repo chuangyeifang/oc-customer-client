@@ -1,0 +1,156 @@
+body {
+    background: #e8e8e8;
+    font-size: 62.5%;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.phone_head {
+    height: 50px;
+    line-height: 50px;
+    background: #d42921;
+    width: 100%;
+    border-bottom: #c0c0c0 solid 1px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "微软雅黑";
+}
+
+.phone_head .phone_back {
+    width: 10px;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 17px;
+}
+
+.phone {
+    width: 80%;
+    margin: 10px auto 20px;
+    font-size: 1rem;
+    font-family: "微软雅黑";
+}
+
+.phone a {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 15px auto 0;
+    border: #ccc solid 1px;
+    color: #000;
+    background: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+}
+
+.phone a img {
+    vertical-align: middle;
+    margin: -4px 10px 0 0;
+}
+
+.phone .phone_ico1 {
+    width: 34px;
+    height: 25px;
+    /* background: url(../images/phone_ico1.png) no-repeat; */
+    /* background-size:30px 25px; */
+}
+
+.phone .phone_ico2 {
+    width: 34px;
+    height: 19px;
+    /* background: url(../images/phone_ico2.png) no-repeat; */
+    /* background-size:34px 19px; */
+}
+
+.phone .phone_ico3 {
+    width: 33px;
+    height: 25px;
+    /* background: url(../images/phone_ico3.png) no-repeat; */
+    /* background-size:33px 25px; */
+}
+
+.phone .phone_ico4 {
+    width: 38px;
+    height: 24px;
+    /* background: url(../images/phone_ico4.png) no-repeat; */
+    /* background-size:38px 24px; */
+}
+
+.phone .phone_ico5 {
+    width: 38px;
+    height: 24px;
+    /* background: url(../images/phone_ico5.png) no-repeat; */
+    /* background-size:38px 24px; */
+}
+
+.phone .phone_ico6 {
+    width: 35px;
+    /* background: url(../images/phone_ico6.png) no-repeat; */
+    /* background-size:34px 23px; */
+}
+
+.phone .phone_ico11 {
+    width: 34px;
+    height: 23px;
+}
+
+.phone .phone_ico12 {
+    width: 40px;
+}
+
+.phone .phone_ico11 {
+    width: 35px;
+}
+
+.phone .phone_ico12 {
+    width: 40px;
+}
+
+.phone .phone_ico13 {
+    width: 35px;
+}
+
+.phone .phone_ico7 {
+    width: 25px;
+}
+
+.phone .phone_ico14 {
+    width: 35px;
+}
+
+.phone .phone_smart_life,
+.phone .phone_smart_speaker {
+    width: 35px;
+}
+
+.phone .phone_ico8 {
+    width: 34px;
+    height: 23px;
+}
+
+.top_back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+
+.top_back:after {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    content: '';
+    display: block;
+    width: 14px;
+    height: 22px;
+    background: url(../images/shop-icons.png) no-repeat -10px -2px;
+    background-size: 300px;
+}
