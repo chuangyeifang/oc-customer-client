@@ -29,7 +29,7 @@ gulp --env dev --tenant example
 
 说明: 
   gulp 需要全局安装
-  env: 环境（dev/uat/prd） 默认值 prd 可以在gulpfile.js进行配置
+  env: 环境（dev/uat） 默认值可以在gulpfile.js进行配置
   tenant: 租户 默认值 example
 ```
 
