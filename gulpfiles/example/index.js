@@ -204,7 +204,7 @@ gulp.task('move-wap-html', function() {
 gulp.task('server', function (callback) {
     connect.server({
         root: 'dist',
-        host: 'oc.lenovouat.com',
+        host: 'im.jshii.com.cn',
         port: 80,
         livereload:true
     });
